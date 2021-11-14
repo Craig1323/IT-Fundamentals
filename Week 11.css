@@ -1,0 +1,67 @@
+:root {
+    --base-font-color: rgba(131,148,150);
+    --c-background-color: rgba(0,43,54);
+    --c-background-highlights: rgba(7,54,66);
+    --c-yellow: rgba(181,137,0);
+    --c-orange: rgba(203,75,22);
+    --c-red:    rgba(220,50,47);
+    --c-magenta: rgba(211,54,130);
+    --c-violet: rgba(108,113,196);
+    --c-blue: rgba(38,139,210);
+    --c-cyan: rgba(42,161,152);
+    --c-green: rgba(133,153,0);
+    }
+    
+    body{
+      background-color: var(--c-background-color)
+    }
+    header,footer{
+      background-color: var(--c-background-highlights);
+    }
+    main, footer, header{
+    color:var(--base-font-color);
+    }
+    aside a{
+      color:var(--c-red)
+      }
+    a:hover{
+      background: var(--c-orange)
+    }
+    article h3{
+      padding: 3px;
+      border: solid;
+      border-color:var(--c-cyan);
+     }
+    header{
+      text-align: center;
+      font-size: 150%;
+      color:var(--c-yellow)
+    }
+    nav li{
+      list-style-type: none;
+      margin:auto
+    }
+    nav ul{
+      display:flex;
+      flex-direction: row;
+    }
+    html{
+      max-width: 800px;
+    }
+    h2,h3 {
+      padding-top: 50px;
+    }
+    aside ul{
+      position:absolute;
+      top: 275px;
+      left:790px;
+      width: 75px;
+    }
+    aside h2{
+        position:absolute;
+        top: 175px;
+        left:775px;
+        width: 75px;
+    }
+    
+    
